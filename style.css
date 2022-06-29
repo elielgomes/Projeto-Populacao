@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background-color:#878789;
+    background-image: url('imagem-fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    }
+    table{
+    border-collapse: collapse;
+    margin: auto;
+    }
+    tr, td ,th {
+    padding: 8px;
+    border: 1px solid black;
+    }
+    .num{
+    text-align: right;
+    }
+    thead, tfoot{
+    background-color: #0D66D0;
+    color: white;
+    text-align: left;
+    }
+    .position::after {
+    content:'°'
+    }
+    table{
+    background-color: #cccccc7e;
+    min-width: 300px;
+    }
+    h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.534);
+    }
+    section{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 40px ;
+    box-shadow: 3px 3px 9px  rgba(0, 0, 0, 0.308);
+    }
+    header{
+    background-color: #094C9E ;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.397);
+    }
+    blockquote{
+    padding-top: 10px;
+    text-align: center;
+    }
+    footer{
+    background-color: #094C9E ;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.568); ;
+    }
+    #eliel{
+    text-decoration: none;
+    color: white;
+    }
+    #eliel:hover{
+    text-decoration: underline;
+    }
